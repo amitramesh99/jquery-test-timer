@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link href="normalize.css" rel="stylesheet" type="text/css">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <script src="jquery-1.11.3.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <main>
+            <form id="inputForm">
+                <h1>Self-adjusting Timer</h1>
+                <div id="inputContainer">
+                    <input type="text" id="inputTime" class="textInput" autofocus placeholder="Number of minutes">
+                    <input type="text" id="inputQuestions" class="textInput" tab-index="2" placeholder="Number of questions">
+                    <input type="submit" id="submitForm" class="actionButton" value="Start Timer">
+                </div>
+            </form>
+            <div id="timerContainer">
+                <h1 id="time">00:00</h1>
+                <p>You should be on question <span id="questionNumber">1</span></p>
+                <div id="buttonContainer">
+                    <button class="actionButton" id="pause">Pause</button>
+                    <button class="actionButton" id="reset">Restart</button>
+                    <button class="actionButton" id="cancel">Cancel</button>
+                </div>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.textInput{
+    padding: 15px;
+    border: none;
+    width: 400px;
+    border: 1px solid #e3e3e3;
+    display: block;
+    margin: auto;
+}
+
+input:nth-child(1){
+    border-bottom: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.actionButton{
+    padding: 15px;
+    min-width: 150px;
+    border: 1px solid #C62828;
+    background-color: #C62828;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#submitForm{
+    width: 400px;
+}
+
+main{
+    text-align: center;
+}
+
+#inputForm{
+    margin: 100px auto 0px;
+    display: inline-block;
+}
+
+#inputContainer{
+    margin-top: 100px;
+}
+
+#timerContainer{
+    margin: auto;
+    display: none;
+}
+
+.warn::-webkit-input-placeholder {
+    color: #c03f3f;
+}
